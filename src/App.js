@@ -6,10 +6,10 @@ import '../node_modules/font-awesome/css/font-awesome.min.css'
 
 function App() {
   return (
-    <div className="App">
+    <body className="App">
       <Header />
       <Books />
-    </div>
+    </body>
   );
 }
 
