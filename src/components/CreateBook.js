@@ -16,9 +16,9 @@ export default class CreateBook extends Component {
         let { value, name } = e.target
     
         this.setState({
-          [name]: value
+            [name]: value
         })
-      }
+    }
 
     handleClick = () => {
         let newBook = this.state
@@ -35,24 +35,27 @@ export default class CreateBook extends Component {
                 onChange={this.handleChange}
                 value={this.state.title} />
                 <input
+                style={{marginLeft: '25px'}}
                 type="text"
                 name="author"
                 placeholder="Author"
                 onChange={this.handleChange}
                 value={this.state.author} />
                 <input
+                style={{marginLeft: '25px'}}
                 type="number"
                 name="currentPage"
                 placeholder="Current Page"
                 onChange={this.handleChange}
                 value={this.state.currentPage} />
                 <input
+                style={{marginLeft: '25px'}}
                 type="number"
                 name="totalPages"
                 placeholder="Total Pages"
                 onChange={this.handleChange}
                 value={this.state.totalPages} />
-                <button onClick={this.handleClick}>Add Book</button>
+                <button style={{marginLeft: '25px'}} onClick={this.handleClick}>Add Book</button>
             </div>
         )
     }

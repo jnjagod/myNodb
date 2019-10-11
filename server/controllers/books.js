@@ -4,14 +4,14 @@ let books = [
         id: id++,
         title: 'Sabriel',
         author: 'Garth Nix',
-        currentPage: 1,
+        currentPage: 491,
         totalPages: 491
     },
     {
         id: id++,
         title: 'Lirael',
         author: 'Garth Nix',
-        currentPage: 1,
+        currentPage: 720,
         totalPages: 720
     }
 ]
